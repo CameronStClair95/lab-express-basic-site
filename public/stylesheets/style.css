@@ -3,5 +3,9 @@ body {
     background-color: bisque;
   }
 
-  
+  .gallery-imgs{
+    /* align-items: center; */
+    margin-left: 500px;
+
+  }
   
