@@ -1,11 +1,46 @@
-body {
-    color: blue;
-    background-color: bisque;
-  }
 
   .gallery-imgs{
-    /* align-items: center; */
-    margin-left: 500px;
-
+    display: flex;
+    justify-content: center;
   }
   
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-evenly;
+  background-color: black;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+html {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #2eb8b8;
+}
+
+a:link {
+  color:  #2eb8b8;
+  text-decoration: none;
+}
+
+a:visited {
+  color:  #2eb8b8;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #b380ff;
+  text-decoration: none;
+}
